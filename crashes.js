@@ -16,6 +16,7 @@ d3.json(dataUrl, function(err, jsonData) {
            [makeSeries],
            [normalizeSeries],
            [stackData, 0],
+           [getGraphContainer],
            [draw],
            [listenForClicks]);
 });
@@ -71,7 +72,7 @@ function prepareData(jsonData) {
 // (For now, fake the data.)
 // Turn the prepared data into series, tagged with colors.
 function makeSeries(data) {
-  return [0.3, 0.1, 0.1, 3].map(function(scale, i) {
+  return [0.5, 2, 1.5, 3].map(function(scale, i) {
     return {
       color: colors[i],
       index: i,
@@ -119,6 +120,8 @@ function stackData(aboveGroundSeriesIndex, series) {
   });
   var groundLevel = d3.max(sliceSums) || 0;
 
+  console.log('stacking data', groundLevel, aboveGroundSeriesIndex);
+
   for (i = 0; i < aboveGroundSeries.length; i++) {
     var ser = aboveGroundSeries[i];
 
@@ -165,13 +168,21 @@ function stackData(aboveGroundSeriesIndex, series) {
 }
 
 // Do the D3 magick.
-function draw(stackedSeries) {
-  var animStep = 500;
-
+function getGraphContainer(stackedSeries) {
   var svg = d3.select("body").append("svg")
       .attr("width", width)
       .attr("height", height)
-    .append("g");
+    .append("g")
+      .attr('id', 'graph-container');
+
+  return [svg, stackedSeries];
+}
+
+function draw(svgAndStackedSeries) {
+  var svg = svgAndStackedSeries[0];
+  var stackedSeries = svgAndStackedSeries[1];
+
+  var animStep = 500;
 
   var first = stackedSeries[0].data[0];
   var xscale = d3.scale.linear()
@@ -204,22 +215,30 @@ function draw(stackedSeries) {
     .y0(yscale(0))
     .y1(yscale(0));
 
-  svg.selectAll('path')
-    .data(stackedSeries)
-    .enter()
-      .append('path')
-      .attr('d', G.compose(G.get('data'), zeroAreaGenerator))
-      .attr('fill', G.get('color'))
-      .transition()
-        .duration(animStep)
-        .attr('d', G.compose(G.get('data'), areaGenerator));
+  var paths = svg.selectAll('path').data(stackedSeries);
+
+  paths.transition()
+    .duration(animStep)
+    .attr('d', G.compose(G.get('data'), areaGenerator))
+    .attr('fill', G.get('color'));
+
+  paths.enter()
+    .append('path')
+    .attr('d', G.compose(G.get('data'), zeroAreaGenerator))
+    .attr('fill', G.get('color'))
+    .transition()
+      .duration(animStep)
+      .attr('d', G.compose(G.get('data'), areaGenerator));
 
   return svg;
 }
 
+
 function listenForClicks(svg) {
   svg.selectAll('path').on('click', function (ser, i) {
-      pipeline([stackData, ser.index, unstackedData],
-               [draw]);
+    var stackedData = stackData(ser.index, unstackedData);
+    var svg = d3.select('#graph-container');
+    console.log('restacking with ', stackedData, ser.index, svg);
+    draw([svg, stackedData]);
   });
 }
