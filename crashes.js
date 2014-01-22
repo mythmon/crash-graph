@@ -32,6 +32,7 @@ function pipeline(/* ...funcsAndArgs */) {
   return ret;
 }
 
+// Clean and translate the raw incoming data.
 function prepareData(jsonData) {
   var timeFormatter = d3.time.format('%Y-%m-%d');
   var datesSeen = {};
@@ -65,6 +66,8 @@ function prepareData(jsonData) {
   return data.slice(2);
 }
 
+// (For now, fake the data.)
+// Turn the prepared data into series, tagged with colors.
 function makeSeries(data) {
   return [3, 0.3, 0.1, 0.1].map(function(scale, i) {
     return {
@@ -79,6 +82,7 @@ function makeSeries(data) {
   });
 }
 
+// Replace the data in a series with x and y coords.
 function normalizeSeries(series) {
   return series.map(function(ser) {
     ser.data = ser.data.map(function(d) {
@@ -92,7 +96,7 @@ function normalizeSeries(series) {
 }
 
 function stackData(series) {
-  var skipStacking = 1;
+  var skipStacking = 1;  // Don't stack the first series.
   var i;
 
   for (i = 0; i < series.length; i++) {
@@ -115,6 +119,7 @@ function stackData(series) {
   return series;
 }
 
+// Do the D3 magick.
 function draw(stackedSeries) {
   var animStep = 600;
 
