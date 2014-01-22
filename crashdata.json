@@ -1,0 +1,2263 @@
+{
+"crashtrends": [
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 690,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-26",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 174,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1422,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 174,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 5004,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 672,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-20",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 42,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 228,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-25",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 66,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-20",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 126,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 114,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-22",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 48,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1428,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-14",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 48,
+"report_date": "2014-01-20",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-25",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 120,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 144,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-23",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 114,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-21",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 78,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-25",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 42,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 102,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-12",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 522,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 66,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 144,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-23",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 60,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-26",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 42,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 366,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 96,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-13",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 4572,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 42,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 30,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1890,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 114,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-22",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 96,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 294,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 96,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-23",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 132,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 210,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 528,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 84,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 246,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-24",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 42,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 54,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-21",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 36,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 114,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 24,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 72,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 996,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-22",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 126,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-12",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 216,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-25",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 36,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 24,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 444,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1956,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 24,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-25",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 66,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 96,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-14",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 396,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 156,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-18",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 66,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1178,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 78,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 6,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 510,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 174,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 132,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 6,
+"report_date": "2014-01-20",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 3930,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-24",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 84,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 90,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-12",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 4446,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 222,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-12",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1992,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 48,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 84,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 204,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1704,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 420,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-14",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 486,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 258,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 108,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-13",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 234,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-26",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 174,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 240,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 180,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 36,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-13",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 18,
+"report_date": "2014-01-20",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-22",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 78,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 90,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-22",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 42,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1128,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 48,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 186,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 90,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 990,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-12",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 42,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-13",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1656,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-12",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1332,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-12",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 30,
+"report_date": "2014-01-20",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 336,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 108,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 210,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 84,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-14",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 4590,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 4374,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 3864,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-23",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 126,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 102,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 60,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1722,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-26",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 48,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 216,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 354,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 144,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 48,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-26",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 30,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 102,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 30,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-24",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 102,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 414,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-25",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 156,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 150,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 282,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 222,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 6,
+"report_date": "2014-01-20",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1140,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1008,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 552,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-24",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 66,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 186,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 84,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-12",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 294,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 451,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 6,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 12,
+"report_date": "2014-01-20",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 168,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 192,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 162,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 174,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 138,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 312,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-19",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 102,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 84,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 132,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-14",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 246,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 996,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 54,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-26",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 24,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 222,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-13",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1410,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 3882,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 120,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 78,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 626,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-13",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 558,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 120,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1326,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 4582,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 72,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 120,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 72,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 4020,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 4254,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 180,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 5058,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 288,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 252,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 66,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 4320,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-23",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 84,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 108,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-21",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 120,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-24",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 48,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 108,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 114,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-14",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 2202,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 60,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 258,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-13",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 84,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 354,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1822,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 24,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 252,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 127,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1770,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 36,
+"report_date": "2014-01-20",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-23",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 54,
+"report_date": "2014-01-05",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 1224,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1236,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 186,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-21",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 66,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 426,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 66,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 480,
+"report_date": "2014-01-07",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 228,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 48,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 312,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 144,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 36,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-14",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1542,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-28",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 120,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 528,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 186,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 102,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 666,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-26",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 72,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-12",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 354,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 30,
+"report_date": "2014-01-19",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-26",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 126,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 264,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 11,
+"report_count": 66,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-30",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 288,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1620,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 498,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-24",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 150,
+"report_date": "2014-01-03",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 630,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-20",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 102,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 408,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 60,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-13",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 420,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 384,
+"report_date": "2014-01-10",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 237,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 114,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 366,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 1,
+"report_count": 4584,
+"report_date": "2014-01-09",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-09",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 437,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-25",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 120,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 4,
+"report_count": 342,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 6,
+"report_date": "2014-01-20",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 90,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-26",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 96,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 0,
+"report_count": 1812,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-07",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 108,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-19",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 72,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 13,
+"report_count": 102,
+"report_date": "2014-01-15",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-10",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 756,
+"report_date": "2014-01-13",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 8,
+"report_count": 132,
+"report_date": "2014-01-16",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 90,
+"report_date": "2014-01-12",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-03",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 372,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-08",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 174,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-05",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 12,
+"report_count": 90,
+"report_date": "2014-01-17",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-27",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 5,
+"report_count": 204,
+"report_date": "2014-01-01",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 5184,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-24",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 9,
+"report_count": 168,
+"report_date": "2014-01-02",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-04",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 210,
+"report_date": "2014-01-11",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-02",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1032,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-25",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 10,
+"report_count": 30,
+"report_date": "2014-01-04",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 6,
+"report_count": 522,
+"report_date": "2014-01-06",
+"product_name": "Firefox"
+},
+{
+"build_date": "2013-12-31",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 14,
+"report_count": 72,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 7,
+"report_count": 252,
+"report_date": "2014-01-18",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-06",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 2,
+"report_count": 1218,
+"report_date": "2014-01-08",
+"product_name": "Firefox"
+},
+{
+"build_date": "2014-01-11",
+"version_string": "29.0a1",
+"product_version_id": 2040,
+"days_out": 3,
+"report_count": 468,
+"report_date": "2014-01-14",
+"product_name": "Firefox"
+}
+]
+}
