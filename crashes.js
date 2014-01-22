@@ -15,8 +15,9 @@ d3.json(dataUrl, function(err, jsonData) {
   pipeline([prepareData, jsonData],
            [makeSeries],
            [normalizeSeries],
-           [stackData, 1],
-           [draw]);
+           [stackData, 0],
+           [draw],
+           [listenForClicks]);
 });
 
 function pipeline(/* ...funcsAndArgs */) {
@@ -73,6 +74,7 @@ function makeSeries(data) {
   return [0.3, 0.1, 0.1, 3].map(function(scale, i) {
     return {
       color: colors[i],
+      index: i,
       data: data.map(function(d) {
         return {
           report_date: d.report_date,
@@ -83,9 +85,11 @@ function makeSeries(data) {
   });
 }
 
+var unstackedData;
+
 // Replace the data in a series with x and y coords.
 function normalizeSeries(series) {
-  return series.map(function(ser) {
+  unstackedData = series.map(function(ser) {
     ser.data = ser.data.map(function(d) {
       return {
         x: d.report_date,
@@ -94,6 +98,7 @@ function normalizeSeries(series) {
     });
     return ser;
   });
+  return unstackedData;
 }
 
 // series -- [{color: '#abc', data: [{x: 4, y: 6},
@@ -112,7 +117,7 @@ function stackData(aboveGroundSeriesIndex, series) {
       sliceSums[i] = (sliceSums[i] || 0) + d.y;
     });
   });
-  var groundLevel = d3.max(sliceSums);
+  var groundLevel = d3.max(sliceSums) || 0;
 
   for (i = 0; i < aboveGroundSeries.length; i++) {
     var ser = aboveGroundSeries[i];
@@ -208,4 +213,13 @@ function draw(stackedSeries) {
       .transition()
         .duration(animStep)
         .attr('d', G.compose(G.get('data'), areaGenerator));
+
+  return svg;
+}
+
+function listenForClicks(svg) {
+  svg.selectAll('path').on('click', function (ser, i) {
+      pipeline([stackData, ser.index, unstackedData],
+               [draw]);
+  });
 }
