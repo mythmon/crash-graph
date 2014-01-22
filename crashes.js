@@ -3,7 +3,8 @@ var height = 300;
 var padding = 10;
 //var dataUrl = 'https://crash-stats.allizom.org/api/CrashTrends/?end_date=2014-01-21&product=Firefox&start_date=2014-01-01&version=29.0a1' ;
 var dataUrl = 'crashdata.json';
-var colors = ['#e5e4e6', '#d1c2ef', '#d4d984', '#88d7b2'];
+var colors = ['#88d7b2', '#d4d984', '#d1c2ef', '#e5e4e6'];
+//var colors = ['rgba(255, 0, 0, 0.5)', 'rgba(0, 255, 0, 0.5)', 'rgba(0, 0, 255, 0.5)', 'rgba(255, 255, 0, 0.5)'];
 
 d3.json(dataUrl, function(err, jsonData) {
   if (err) {
@@ -14,7 +15,7 @@ d3.json(dataUrl, function(err, jsonData) {
   pipeline([prepareData, jsonData],
            [makeSeries],
            [normalizeSeries],
-           [stackData],
+           [stackData, 1],
            [draw]);
 });
 
@@ -69,7 +70,7 @@ function prepareData(jsonData) {
 // (For now, fake the data.)
 // Turn the prepared data into series, tagged with colors.
 function makeSeries(data) {
-  return [3, 0.3, 0.1, 0.1].map(function(scale, i) {
+  return [0.3, 0.1, 0.1, 3].map(function(scale, i) {
     return {
       color: colors[i],
       data: data.map(function(d) {
@@ -95,24 +96,63 @@ function normalizeSeries(series) {
   });
 }
 
-function stackData(series) {
-  var skipStacking = 1;  // Don't stack the first series.
+// series -- [{color: '#abc', data: [{x: 4, y: 6},
+//                                   ...]},
+//            ...], in bottom-to-top order
+// aboveGroundSer -- The 0-based index of the series that is just above the
+//     straight horizontal axis.
+function stackData(aboveGroundSeriesIndex, series) {
   var i;
+  var aboveGroundSeries = series.slice(aboveGroundSeriesIndex);
+  var belowGroundSeries = series.slice(0, aboveGroundSeriesIndex).reverse();
 
-  for (i = 0; i < series.length; i++) {
-    var ser = series[i];
-    if (i <= skipStacking) {
-      ser.data = ser.data.map(function(d) {
-        d.y0 = 0;
-        d.y1 = d.y;
-        return d;
-      });
+  var sliceSums = [];
+  belowGroundSeries.forEach(function(ser) {
+    ser.data.forEach(function(d, i) {
+      sliceSums[i] = (sliceSums[i] || 0) + d.y;
+    });
+  });
+  var groundLevel = d3.max(sliceSums);
+
+  for (i = 0; i < aboveGroundSeries.length; i++) {
+    var ser = aboveGroundSeries[i];
+
+    // Add y0 and y1 fields to each datum:
+    if (i === 0) {
+      ser.data = ser.data.map(
+        function (d) {
+          d.y0 = groundLevel;
+          d.y1 = d.y0 + d.y;
+          return d;
+        })
     } else {
-      ser.data = ser.data.map(function(d, j) {
-        d.y0 = series[i - 1].data[j].y1;
-        d.y1 = d.y0 + d.y;
-        return d;
-      });
+      ser.data = ser.data.map(
+        function (d, j) {
+          d.y0 = aboveGroundSeries[i - 1].data[j].y1;
+          d.y1 = d.y0 + d.y;
+          return d;
+        })
+    }
+  }
+
+  for (i = 0; i < belowGroundSeries.length; i++) {
+    var ser = belowGroundSeries[i];
+
+    // Add y0 and y1 fields to each datum:
+    if (i === 0) {
+      ser.data = ser.data.map(
+        function (d) {
+          d.y1 = groundLevel;
+          d.y0 = d.y1 - d.y;
+          return d;
+        })
+    } else {
+      ser.data = ser.data.map(
+        function (d, j) {
+          d.y1 = belowGroundSeries[i - 1].data[j].y0;
+          d.y0 = d.y1 - d.y;
+          return d;
+        })
     }
   }
 
@@ -121,7 +161,7 @@ function stackData(series) {
 
 // Do the D3 magick.
 function draw(stackedSeries) {
-  var animStep = 600;
+  var animStep = 500;
 
   var svg = d3.select("body").append("svg")
       .attr("width", width)
@@ -140,12 +180,13 @@ function draw(stackedSeries) {
   // find total range of all series.
   stackedSeries.forEach(function(line) {
     var extentx = d3.extent(line.data, G.get('x'));
+    var miny = d3.min(line.data, G.get('y0'));
     var maxy = d3.max(line.data, G.get('y1'));
     var domainx = xscale.domain();
     var domainy = yscale.domain();
 
     xscale.domain([Math.min(extentx[0], domainx[0]), Math.max(extentx[1], domainx[1])]);
-    yscale.domain([0, Math.max(maxy, domainy[1])]);
+    yscale.domain([Math.min(miny, domainy[0]), Math.max(maxy, domainy[1])]);
   });
 
   var areaGenerator = d3.svg.area()
@@ -166,9 +207,5 @@ function draw(stackedSeries) {
       .attr('fill', G.get('color'))
       .transition()
         .duration(animStep)
-        .delay(function(d, i) {
-          if (i === 0) return 0;
-          return i * animStep;
-        })
         .attr('d', G.compose(G.get('data'), areaGenerator));
 }
